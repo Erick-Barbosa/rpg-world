@@ -1,6 +1,7 @@
 package com.erikimon.rpgworld.block;
 
 import com.erikimon.rpgworld.RPGWorld;
+import com.erikimon.rpgworld.block.custom.MagicBlock;
 import com.erikimon.rpgworld.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -52,6 +53,14 @@ public class ModBlocks {
                         .strength(4f)
                         .requiresCorrectToolForDrops()
                         .sound(SoundType.DEEPSLATE)
+            )
+    );
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(
+                    BlockBehaviour.Properties.of()
+                        .strength(2f)
+                        .requiresCorrectToolForDrops()
+                        .sound(SoundType.MEDIUM_AMETHYST_BUD)
             )
     );
 

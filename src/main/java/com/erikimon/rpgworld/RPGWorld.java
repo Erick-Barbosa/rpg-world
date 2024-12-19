@@ -41,7 +41,7 @@ public class RPGWorld {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModCreativeModeTabs.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,16 +55,7 @@ public class RPGWorld {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-           event.accept(ModItems.BISMUTH);
-           event.accept(ModItems.RAW_BISMUTH);
-        }
 
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.BISMUTH_BLOCK);
-            event.accept(ModBlocks.BISMUTH_ORE);
-            event.accept(ModBlocks.BLOCK1);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

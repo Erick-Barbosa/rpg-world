@@ -2,6 +2,7 @@ package com.erikimon.rpgworld.item;
 
 import com.erikimon.rpgworld.RPGWorld;
 import com.erikimon.rpgworld.block.ModBlocks;
+import com.erikimon.rpgworld.block.custom.MagicBlock;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -36,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BISMUTH_ORE);
                         output.accept(ModBlocks.BISMUTH_DEEPSLATE_ORE);
                         output.accept(ModBlocks.BLOCK1);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
     public static void register(IEventBus eventBus) {
