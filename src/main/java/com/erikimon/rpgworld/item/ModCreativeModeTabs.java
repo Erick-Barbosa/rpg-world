@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.rpgworld.bismuth_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BISMUTH);
+                        output.accept(ModItems.CHISEL);
                         output.accept(ModItems.RAW_BISMUTH);
                     }).build());
 
