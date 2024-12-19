@@ -25,6 +25,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.RADISH);
+                        output.accept(ModItems.STARLIGHT_ASHES);
+                        output.accept(ModItems.FROSTFIRE_ICE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCKS_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
