@@ -1,0 +1,10 @@
+{
+  "item.rpgworld.bismuth": "Bismuth",
+  "item.rpgworld.raw_bismuth": "Raw Bismuth",
+
+  "block.rpgworld.bismuth_block": "Block of Bismuth",
+  "block.rpgworld.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.rpgworld.bismuth_items": "Bismuth Items",
+  "creativetab.rpgworld.bismuth_blocks": "Bismuth Blocks"
+}
