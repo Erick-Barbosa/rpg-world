@@ -1,7 +1,6 @@
 package com.erikimon.rpgworld;
 
 import com.erikimon.rpgworld.block.ModBlocks;
-import com.erikimon.rpgworld.event.ElytraSaddleEvent;
 import com.erikimon.rpgworld.item.ModCreativeModeTabs;
 import com.erikimon.rpgworld.item.ModItems;
 import com.erikimon.rpgworld.item.custom.ElytrianSaddleItem;
@@ -42,7 +41,6 @@ public class RPGWorld {
         // Note that this is necessary if and only if we want *this* class (RPGWorld) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
-        NeoForge.EVENT_BUS.register(ElytraSaddleEvent.class);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
