@@ -1,14 +1,18 @@
 package com.erikimon.rpgworld;
 
 import com.erikimon.rpgworld.block.ModBlocks;
+import com.erikimon.rpgworld.event.ElytraSaddleEvent;
 import com.erikimon.rpgworld.item.ModCreativeModeTabs;
 import com.erikimon.rpgworld.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
+import com.erikimon.rpgworld.item.custom.ElytrianSaddleItem;
+import com.erikimon.rpgworld.logger.ModLogger;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.animal.horse.AbstractHorse;
+import net.minecraft.world.item.ItemStack;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
 import org.slf4j.Logger;
-
 import com.mojang.logging.LogUtils;
-
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -38,6 +42,7 @@ public class RPGWorld {
         // Note that this is necessary if and only if we want *this* class (RPGWorld) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.register(ElytraSaddleEvent.class);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -47,6 +52,8 @@ public class RPGWorld {
         modEventBus.addListener(this::addCreative);
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        ModLogger.showLog("First Log");
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

@@ -2,6 +2,7 @@ package com.erikimon.rpgworld.item;
 
 import com.erikimon.rpgworld.RPGWorld;
 import com.erikimon.rpgworld.item.custom.ChiselItem;
+import com.erikimon.rpgworld.item.custom.ElytrianSaddleItem;
 import com.erikimon.rpgworld.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -28,6 +29,10 @@ public class ModItems {
 
     public static final DeferredItem<Item> STARLIGHT_ASHES = ITEMS.register("starlight_ashes",
             () -> new Item(new Item.Properties()));
+
+public static final DeferredItem<Item> ELYTRIAN_SADDLE = ITEMS.register("elytrian_saddle",
+        () -> new ElytrianSaddleItem(new Item.Properties().stacksTo(1)));
+
     public  static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
