@@ -13,5 +13,10 @@
   "block.rpgworld.magic_block": "Magic Block",
 
   "creativetab.rpgworld.bismuth_items": "Bismuth Items",
-  "creativetab.rpgworld.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.rpgworld.bismuth_blocks": "Bismuth Blocks",
+
+  "tooltip.rpgworld.magic_block.tooltip": "This block is very §9MAGICAL§r",
+  "tooltip.rpgworld.chisel.tooltip": "This item can chisel blocks into Bricks (and other special things)",
+  "tooltip.rpgworld.chisel.shift.up": "Press §eshift§r for more information",
+  "tooltip.rpgworld.radish.tooltip": "Tastes really great!!!"
 }
