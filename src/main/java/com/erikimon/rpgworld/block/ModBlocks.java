@@ -60,6 +60,7 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of()
                         .strength(2f)
                         .requiresCorrectToolForDrops()
+                        .noLootTable()
                         .sound(SoundType.MEDIUM_AMETHYST_BUD)
             )
     );

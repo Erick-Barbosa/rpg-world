@@ -1,0 +1,16 @@
+// 1.21.1	2024-12-23T15:23:42.8242989	Block States: rpgworld
+1c7d837a76e5d601a36112897f5b54f2f17bdf91 assets/rpgworld/blockstates/bismuth_block.json
+8e0ee1a028663bbcfb720276d717fb7cc2360c6d assets/rpgworld/blockstates/bismuth_deepslate_ore.json
+b433a4e989130df3fedca3b749d3900d743a226d assets/rpgworld/blockstates/bismuth_ore.json
+9fc55ccc0a28d36d0a7ddd2ae10c67330ad1f2f4 assets/rpgworld/blockstates/block1.json
+a3566a3f8a85edfae6e69163fa049e04836d9f51 assets/rpgworld/blockstates/magic_block.json
+3f63016906aa103436ba09a1a0b974472fde8672 assets/rpgworld/models/block/bismuth_block.json
+0da2b0b931e6f191773bce62d2d42b7d33063552 assets/rpgworld/models/block/bismuth_deepslate_ore.json
+bec002d8e7f69aee14244c6487ade8a190c2a809 assets/rpgworld/models/block/bismuth_ore.json
+9ea188b1984ffd2f708d8ec574466efaefec67b0 assets/rpgworld/models/block/block1.json
+88b0258332eab4b1040590cd39d2824a4a9681e3 assets/rpgworld/models/block/magic_block.json
+28289dc8ee61c746605b411c8a1951ac59fa1309 assets/rpgworld/models/item/bismuth_block.json
+d8e1156a752c3e0330427c7768b346eb77af2261 assets/rpgworld/models/item/bismuth_deepslate_ore.json
+24300130f75f4117297045621138e9477fb9b351 assets/rpgworld/models/item/bismuth_ore.json
+2a3264f61e64419547da93f7abbeb55a6fa286aa assets/rpgworld/models/item/block1.json
+7128d166d65bc5961d8c8c3cdeca84cf16e32e9e assets/rpgworld/models/item/magic_block.json
