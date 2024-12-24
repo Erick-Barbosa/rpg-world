@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rpgworld:block/bismuth_slab"
+    },
+    "type=double": {
+      "model": "rpgworld:block/bismuth_block"
+    },
+    "type=top": {
+      "model": "rpgworld:block/bismuth_slab_top"
+    }
+  }
+}

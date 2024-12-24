@@ -1,3 +1,6 @@
-// 1.21.1	2024-12-23T15:23:42.8232996	Tags for minecraft:block mod id rpgworld
-843f9e4c321b62dff9d82af80c7ef109367c2bf9 data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2024-12-24T07:19:04.2671138	Tags for minecraft:block mod id rpgworld
+d97a81a68f64514e8e6c4103cfd2f15bcb4e29eb data/minecraft/tags/block/fences.json
+a8a3ab32b34b8abacf06d5f7d045e61fdba5ebe6 data/minecraft/tags/block/fence_gates.json
+4bd9a0c45479048bfcc1ef6c8e5e03209dc88c7f data/minecraft/tags/block/mineable/pickaxe.json
 432a8646364baffac04e708289ba56c10b57ffd0 data/minecraft/tags/block/needs_iron_tool.json
+5dad4d361fe48217f96ca2174ea1dbf1616ef97f data/minecraft/tags/block/walls.json

@@ -1,5 +1,9 @@
-// 1.21.1	2024-12-23T15:25:18.9884192	Item Models: rpgworld
+// 1.21.1	2024-12-23T19:14:30.3757605	Item Models: rpgworld
 6ea1a9c0a5e91285b9ab53179459b769484cc15e assets/rpgworld/models/item/bismuth.json
+b9c94362d2f0356fcc8a6f16727c985356f43ece assets/rpgworld/models/item/bismuth_button.json
+b9a0fc47f5baca3dc830675a457be9bfcc0adb0c assets/rpgworld/models/item/bismuth_door.json
+f5b95eae9b87f78e7917e5b53367fc0bb69bc753 assets/rpgworld/models/item/bismuth_fence.json
+a42a3b53a7cba5f88f10219cf9ec368bc741d2f4 assets/rpgworld/models/item/bismuth_wall.json
 e2e270a39bcf67a829b4f7b1d094fa6ae4539ca2 assets/rpgworld/models/item/chisel.json
 87352d085d45780956f73f1b9ddea897f619c778 assets/rpgworld/models/item/elytrian_saddle.json
 9dc5a6cbd46923a78d047c599046c51d0d3bd3bf assets/rpgworld/models/item/frostfire_ice.json

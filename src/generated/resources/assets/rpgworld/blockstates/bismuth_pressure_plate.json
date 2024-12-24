@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "rpgworld:block/bismuth_pressure_plate"
+    },
+    "powered=true": {
+      "model": "rpgworld:block/bismuth_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "rpgworld:block/bismuth_block",
+    "side": "rpgworld:block/bismuth_block",
+    "top": "rpgworld:block/bismuth_block"
+  }
+}

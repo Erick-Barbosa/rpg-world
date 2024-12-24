@@ -1,5 +1,15 @@
-// 1.21.1	2024-12-23T15:20:18.8096395	Loot Tables
+// 1.21.1	2024-12-24T07:19:04.2691156	Loot Tables
 8709777bb75566ad1040cc481acd976b22d258ee data/rpgworld/loot_table/blocks/bismuth_block.json
+f25a1582c773e5de2edb55d988045fd2ea73fd86 data/rpgworld/loot_table/blocks/bismuth_button.json
 4c923f983068b9b9b3e74bdbceba89b4df928545 data/rpgworld/loot_table/blocks/bismuth_deepslate_ore.json
+0d7ebfd224dc7855209a6301148bcee50daa0158 data/rpgworld/loot_table/blocks/bismuth_door.json
+7584de5cb98bdeef1ad4003f3475e068ecc7bf5e data/rpgworld/loot_table/blocks/bismuth_fence.json
+666de2dfd1a15ac750cfc0a18287d6016e0e245b data/rpgworld/loot_table/blocks/bismuth_fence_gate.json
+f87a91cc4c9dd6ea0226bb04c28240d2cc4cc51f data/rpgworld/loot_table/blocks/bismuth_lamp.json
 b2f4cf8885734fc04bda3196ddfa8c5c0b49c6cb data/rpgworld/loot_table/blocks/bismuth_ore.json
+bb1869722a02f809c97c797335553400ac396230 data/rpgworld/loot_table/blocks/bismuth_pressure_plate.json
+4201b5c563ee098e30dbc66e316735b27fb221f6 data/rpgworld/loot_table/blocks/bismuth_slab.json
+a31b8f001c65ded2951afc02d44ad48786ca3e06 data/rpgworld/loot_table/blocks/bismuth_stairs.json
+64128f39fe7ecd4768342a47875737560439ebf0 data/rpgworld/loot_table/blocks/bismuth_trapdoor.json
+bcfda4ac5f086c69ebd9bc36763acb1105aa5f1c data/rpgworld/loot_table/blocks/bismuth_wall.json
 8787a2ff6847085bbdd1aea708704f7ecd76c330 data/rpgworld/loot_table/blocks/block1.json

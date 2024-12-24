@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "rpgworld:block/bismuth_lamp_off"
+    },
+    "clicked=true": {
+      "model": "rpgworld:block/bismuth_lamp_on"
+    }
+  }
+}
